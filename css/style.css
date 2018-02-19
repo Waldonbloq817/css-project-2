@@ -1,0 +1,94 @@
+body {
+  background-color: #ffffff; /* Currently, this color is RED; will change it to softer color */
+  color: #000000;
+  background-image: url(images/bloc-logo.png);
+  font-family: Arial, sans-serif;
+}
+
+p{
+  font-size: 18px;
+  text-align: left;
+  line-height: 2em;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+  font-style: normal;
+  font-weight: bold;
+  line-height: 2em;
+  }
+
+h3 {
+    font-size: normal;
+    font-style: oblique;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+
+.author {
+  font-size: 16px;
+  text-align: left;
+  font-style: normal;
+}
+
+figure{
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 1.5em;
+  background-image: url(images/instagram-pic.jpg);
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: inherit;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
